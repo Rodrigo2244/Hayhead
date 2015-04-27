@@ -60,7 +60,7 @@ TextureImporter:
         width: 10
         height: 27
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Hayhead_1
       rect:
@@ -80,7 +80,7 @@ TextureImporter:
         width: 11
         height: 27
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Hayhead_3
       rect:
@@ -100,7 +100,7 @@ TextureImporter:
         width: 11
         height: 27
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Hayhead_5
       rect:
@@ -108,7 +108,7 @@ TextureImporter:
         x: 58
         y: 28
         width: 11
-        height: 26
+        height: 27
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
