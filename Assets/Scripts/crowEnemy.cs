@@ -34,7 +34,7 @@ public class crowEnemy : MonoBehaviour {
 				cc.Move(new Vector3(direction*Mathf.Abs(hayhead.position.x-transform.position.x),-Mathf.Abs(transform.position.y-hayhead.position.y),0).normalized*Time.deltaTime*speed);
 			} else {
 				speed = 6;
-				cc.Move(new Vector3(direction*Mathf.Abs(hayhead.position.x-transform.position.x),Mathf.Abs(transform.position.y-hayhead.position.y),0).normalized*Time.deltaTime*speed);
+				cc.Move(new Vector3(direction,1,0)*Time.deltaTime*speed);
 			}
 		} else {
 			getDirection();

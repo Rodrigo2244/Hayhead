@@ -35,6 +35,8 @@ public class characterMove : MonoBehaviour {
 		//Movement
 		if(!damaged){
 			Movement();
+		} else {
+			cc.Move(new Vector3(-transform.localScale.x,0,0)*Time.deltaTime*speed/4);
 		}
 
 		//Weapon Throw
@@ -93,6 +95,7 @@ public class characterMove : MonoBehaviour {
 		AudioSource.PlayClipAtPoint(sfx[1],transform.position);
 		yield return new WaitForSeconds(1);
 		Physics.IgnoreLayerCollision(8,9,false);
+		cc.Move(new Vector3(0,0,0));
 		damaged = false;
 	}
 
